@@ -43,9 +43,9 @@ export default async (bot: Client) => {
 
       if (warnings >= AUTO_SPAM_THRESHOLD) {
         await Promise.all([
-          member.kick("Autokicked for spamming"),
+          member.kick("Automod: Spam"),
           logMessage.reply({
-            content: `Automatically kicked <@${message.author.id}> for spam`,
+            content: `<@${message.author.id}>: Spam`,
             allowedMentions: {},
           }),
         ]);
