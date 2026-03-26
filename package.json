@@ -96,7 +96,7 @@
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "globals": "^15.14.0",
-    "happy-dom": "^15.11.7",
+    "happy-dom": "^20.8.8",
     "husky": "~9.1.0",
     "kysely-codegen": "^0.15.0",
     "lint-staged": "~15.2.0",
